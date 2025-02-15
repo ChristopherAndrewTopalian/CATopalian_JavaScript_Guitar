@@ -5,6 +5,10 @@ This JS application teaches how to play guitar and features a full guitar fret b
 
 Video: https://www.youtube.com/watch?v=wnMWfRLsSFM
 
+![screenshot001](https://github.com/ChristopherAndrewTopalian/Topalian_JavaScript_Guitar/blob/main/src/media/textures/screenshots/001.PNG)
+
+![screenshot001](https://github.com/ChristopherAndrewTopalian/Topalian_JavaScript_Guitar/blob/main/src/media/textures/screenshots/002.PNG)
+
 ---
 
 How to Download this Engine
