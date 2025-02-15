@@ -11,7 +11,7 @@ Video: https://www.youtube.com/watch?v=wnMWfRLsSFM
 
 ---
 
-How to Download this Engine
+How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
 3. Save the Zip File
