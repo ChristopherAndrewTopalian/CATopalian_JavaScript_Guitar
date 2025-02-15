@@ -1,0 +1,124 @@
+/* style001.css */
+
+body
+{
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+}
+
+a
+{
+    color: rgb(100, 100, 100);
+}
+
+a:hover
+{
+    color: rgb(0, 255, 255);
+}
+
+a:active
+{
+    color: rgb(255, 0, 255);
+}
+
+hr
+{
+    margin: 2px; 
+}
+
+button
+{
+    margin: 1px;
+    padding: 9px;
+    border: solid 1px rgb(100, 100, 100);
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14.5px;
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+    text-indent: 0px;
+    text-align: center;
+    line-height: 0px;
+    display: inline-block;
+}
+
+button:hover
+{
+    border-color: rgb(255, 255, 255);
+    background: rgb(0, 217, 255);
+}
+
+button:active
+{
+    /*position: relative;
+    top: 1px;*/
+    border-color: rgb(255, 0, 255);
+    color: rgb(255, 0, 255);
+}
+
+.noteStyle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 255);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    flex-shrink: 0; /* prevent shrinking if using flexbox */
+}
+
+.noteStyle:active
+{
+    background-color: rgb(0, 255, 255);
+}
+
+.naturalNotes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 163, 163);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    flex-shrink: 0; /* prevent shrinking if using flexbox */
+}
+
+.naturalNotes:active
+{
+    background-color: rgb(0, 255, 255);
+}
+
+.openStrings
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 161, 161);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/*--*/
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* // https://sites.google.com/view/CollegeOfScripting */
+
