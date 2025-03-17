@@ -1,4 +1,4 @@
-# Topalian JavaScript Guitar
+# CATopalian JavaScript Guitar
 A JavaScript Guitar that records and does playback with highlighted colors and highlights scales with color in every key.
 
 This JS application teaches how to play guitar and features a full guitar fret board.
