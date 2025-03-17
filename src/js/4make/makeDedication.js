@@ -40,10 +40,10 @@ function makeDedication()
     //-//
 
     let titleAndLink = ce('a');
-    titleAndLink.href = 'https://github.com/ChristopherAndrewTopalian/';
+    titleAndLink.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Guitar';
     titleAndLink.target = '_blank';
     titleAndLink.style.fontWeight = 'bold';
-    titleAndLink.textContent = 'Topalian JavaScript Guitar';
+    titleAndLink.textContent = 'CATopalian JavaScript Guitar';
     subDiv.append(titleAndLink);
 }
 
