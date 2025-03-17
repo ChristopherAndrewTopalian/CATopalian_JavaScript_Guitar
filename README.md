@@ -3,6 +3,8 @@ A JavaScript Guitar that records and does playback with highlighted colors and h
 
 This JS application teaches how to play guitar and features a full guitar fret board.
 
+USE APP: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Guitar/CATopalian_JavaScript_Guitar.html
+
 Video: https://www.youtube.com/watch?v=wnMWfRLsSFM
 
 ![screenshot001](https://github.com/ChristopherAndrewTopalian/Topalian_JavaScript_Guitar/blob/main/src/media/textures/screenshots/001.PNG)
