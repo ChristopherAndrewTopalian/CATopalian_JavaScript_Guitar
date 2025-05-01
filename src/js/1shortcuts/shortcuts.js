@@ -42,6 +42,4 @@ function gr(whichId)
 // All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
-// College of Scripting Music & Science
-// Send Donations to paypal.me/keystonermarch
 
