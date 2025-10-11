@@ -6,16 +6,19 @@ function whenLoaded()
 
     makeGuitar();
 
+    // controls for playmode, recordmode
+    makePlayContainer();
+        makeNotesPlayedButton();
+        makeRecordModeButton();
+        makePlayModeButton();
+
     makeChosenScale();
     makeNotesContainer();
 
-    makeRecordModeButton();
-    makePlayModeButton();
     makeRecordPlayStatus();
 
     makeColorNotesButton();
     makeColorDefaultButton();
-    makeNotesPlayedButton();
 
     makeMajorContainer();
     makeMajorButton(cMajorScale);

@@ -3,39 +3,15 @@
 function makeDedication()
 {
     let mainDiv = ce('div');
-    mainDiv.id = 'mainDivDedication';
     mainDiv.className = 'mainDiv';
-    mainDiv.style.zIndex = 3000;
     mainDiv.style.position = 'absolute';
-    mainDiv.style.right = 0 + 'px';
-    mainDiv.style.bottom = 5 + 'px';
-    mainDiv.style.width = 270 + 'px';
-    mainDiv.style.height = 20 + 'px';
+    mainDiv.style.left = 500 + 'px';
+    mainDiv.style.bottom = 0 + 'px';
+    mainDiv.style.width = 70 + 'px';
     mainDiv.style.border = 'solid 2px rgb(0, 0, 0)';
     mainDiv.style.borderRadius = '8px';
-    mainDiv.style.paddingLeft = '4px';
-    mainDiv.style.paddingRight = '4px';
-    mainDiv.style.paddingTop = '8px';
-    mainDiv.style.paddingBottom = '8px';
+    mainDiv.style.padding = '5px 10px';
     ba(mainDiv);
-
-    // makeElementDraggable(mainDiv);
-
-    //-//
-
-    let subDiv = ce('div');
-    subDiv.style.display = 'flex';
-    subDiv.style.alignItems = 'center';
-    subDiv.style.justifyContent = 'center';
-    subDiv.style.textAlign = 'center';
-    subDiv.style.flexDirection = 'column';
-    subDiv.className = 'textStyle002';
-    subDiv.style.height = '4vh';
-    mainDiv.append(subDiv);
-
-    //-//
-
-    // subDiv.append(ce('hr'));
 
     //-//
 
@@ -44,7 +20,10 @@ function makeDedication()
     titleAndLink.target = '_blank';
     titleAndLink.style.fontWeight = 'bold';
     titleAndLink.textContent = 'CATopalian JavaScript Guitar';
-    subDiv.append(titleAndLink);
+    titleAndLink.style.fontSize = '14px';
+    titleAndLink.style.textDecoration = 'none';
+    titleAndLink.style.lineHeight = '12px';
+    mainDiv.append(titleAndLink);
 }
 
 //----//

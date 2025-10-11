@@ -4,9 +4,6 @@ function makePlayModeButton()
 {
     let theButton = ce('button');
     theButton.textContent = 'Play Mode';
-    theButton.style.position = 'absolute';
-    theButton.style.left = 350 + 'px';
-    theButton.style.bottom = 10 + 'px';
     theButton.onclick = function()
     {
         clearInterval(timer001);
@@ -17,7 +14,7 @@ function makePlayModeButton()
 
         ge('mode').textContent = 'Play Mode';
     };
-    ba(theButton);
+    ge('playContainer').append(theButton);
 }
 
 //----//

@@ -15,9 +15,6 @@ function makeNotesPlayedButton()
 
     let playButton = ce('button');
     playButton.textContent = 'Play';
-    playButton.style.position = 'absolute';
-    playButton.style.left = 400 + 'px';
-    playButton.style.top = 0 + 'px';
     playButton.onclick = function()
     {
         clearInterval(timer001);
@@ -61,7 +58,7 @@ function makeNotesPlayedButton()
         
         }, 1000);
     };
-    ba(playButton);
+    ge('playContainer').append(playButton);
 }
 
 //----//
