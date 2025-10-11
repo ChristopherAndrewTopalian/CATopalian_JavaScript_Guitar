@@ -5,60 +5,50 @@ let timer001;
 
 function makePlayButton()
 {
-    /*
-    for (let i = 0; i < notesPlayed.length; i++)
-    {
-        originalColors[i] = ge(notesPlayed[i]).style.backgroundColor;
-        //originalColors[i] = window.getComputedStyle(ge(notesPlayed[i])).backgroundColor;
-    }
-    */
+    let playLoopButton = ce('button');
+    playLoopButton.id = 'playLoopButton';
+    playLoopButton.textContent = 'Play Loop';
 
-    let playButton = ce('button');
-    playButton.textContent = 'Play';
-    playButton.onclick = function()
+    playLoopButton.onclick = function()
     {
-        clearInterval(timer001);
+        // Clear any existing loop
+        clearInterval(timerLoop001);
 
-        // we make it play mode by false
+        // Set to play mode
         isRecordMode = false;
-
         ge('mode').textContent = 'Play Mode';
 
-        counter = 0;
+        // Reset counter
+        counterLoop = 0;
 
-        //let originalColor =  window.getComputedStyle(ge(notesPlayed[counter])).backgroundColor;
-
-        timer001 = setInterval(function()
+        // Start the loop
+        timerLoop001 = setInterval(function()
         {
-            ge(notesPlayed[counter]).click();
+            // Simulate clicking the note
+            ge(notesPlayed[counterLoop]).click();
 
-            // highlight the note being played
+            // Highlight the current note
+            ge(notesPlayed[counterLoop]).style.border = 'solid 1px rgb(255, 255, 255)';
 
-            ge(notesPlayed[counter]).style.border = 'solid 1px rgb(255, 255, 255)';
-
-            // ge(notesPlayed[counter]).style.backgroundColor = 'rgb(0, 213, 255)';
-
-            /*
-            if (counter >= notesPlayed.length)
-            {
-                clearInterval(timer001);
-                // counter = counter - 1;
-            }
-            */
-
-            //  counter++;
-
+            // Remove highlight after 200ms
             setTimeout(function()
             {
                 ge(notesPlayed[counterLoop]).style.border = 'solid 1px rgb(0, 0, 0)';
-
-                //ge(notesPlayed[counter]).style.backgroundColor = originalColors[counter];
+                // Increment counter after highlighting
                 counterLoop += 1;
+
+                // Check if the sequence is done
+                if (counterLoop >= notesPlayed.length)
+                {
+                    clearInterval(timerLoop001);
+                    // Reset counter for potential next play
+                    counterLoop = 0;
+                }
             }, 200);
-        
+
         }, 1000);
     };
-    ge('playContainer').append(playButton);
+    ge('playContainer').append(playLoopButton);
 }
 
 //----//
