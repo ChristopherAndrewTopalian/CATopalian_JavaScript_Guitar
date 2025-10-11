@@ -16,7 +16,7 @@ function makePlayLoopButton()
 
         // Set to play mode
         isRecordMode = false;
-        ge('mode').textContent = 'Play Mode';
+        ge('mode').textContent = 'Play Loop Mode';
 
         // Reset counter
         counterLoop = 0;

@@ -20,6 +20,7 @@ function makeTitleOfApp()
     titleAndLink.textContent = 'CATopalian JavaScript Guitar';
     titleAndLink.style.fontSize = '14px';
     titleAndLink.style.textDecoration = 'none';
+    titleAndLink.style.color = 'rgb(0, 255, 255)';
     titleAndLink.style.lineHeight = '12px';
     mainDiv.append(titleAndLink);
 }
