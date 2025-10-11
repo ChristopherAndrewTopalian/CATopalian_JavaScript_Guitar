@@ -6,7 +6,7 @@ function makeColorContainer()
     colorContainer.id = 'colorContainer';
     colorContainer.style.position = 'absolute';
     colorContainer.style.left = '170px';
-    colorContainer.style.bottom = '0px';
+    colorContainer.style.bottom = '5px';
     ba(colorContainer);
 }
 
