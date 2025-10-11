@@ -12,6 +12,8 @@ function makeHarmonicMinorContainer()
     mainDiv.style.height = 300 + 'px';
     mainDiv.style.overflowY = 'scroll';
     mainDiv.innerHTML = 'HARMONIC<br>MINOR';
+    mainDiv.style.fontSize = '12px';
+    mainDiv.style.fontWeight = 'bold';
     mainDiv.style.textAlign = 'center';
     ba(mainDiv);
 
@@ -22,8 +24,8 @@ function makeHarmonicMinorButton(whichScale)
 {
     let theButton = ce('button');
     theButton.textContent = whichScale[0].toUpperCase();
+    theButton.style.fontSize = '12px';
     theButton.title = whichScale;
-    theButton.className = 'buttonStyle001';
     theButton.onmouseover = function()
     {
         hoverSound();

@@ -12,6 +12,8 @@ function makeMajorContainer()
     mainDiv.style.height = 300 + 'px';
     mainDiv.style.overflowY = 'scroll';
     mainDiv.textContent = 'MAJOR';
+    mainDiv.style.fontSize = '12px';
+    mainDiv.style.fontWeight = 'bold';
     mainDiv.style.textAlign = 'center';
     ba(mainDiv);
 
@@ -22,6 +24,7 @@ function makeMajorButton(whichScale)
 {
     let theButton = ce('button');
     theButton.textContent = whichScale[0].toUpperCase();
+    theButton.style.fontSize = '12px';
     theButton.title = whichScale;
     theButton.className = 'buttonStyle001';
     theButton.onmouseover = function()
