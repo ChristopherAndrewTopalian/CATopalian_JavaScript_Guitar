@@ -8,7 +8,7 @@ function makeNotesContainer()
     notesContainer.style.left = 160 + 'px';
     notesContainer.style.top = 25 + 'px';
     notesContainer.style.width = 400 + 'px';
-    notesContainer.style.height = 200 + 'px';
+    notesContainer.style.height = 150 + 'px';
     notesContainer.style.overflow = 'scroll';
     notesContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     //notesContainer.style.wordWrap = 'break-word';

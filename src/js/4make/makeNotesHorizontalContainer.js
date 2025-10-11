@@ -7,7 +7,7 @@ function makeNotesHorizontalContainer()
     mainDiv.style.position = 'absolute';
     mainDiv.style.left = '165px';
     mainDiv.style.bottom = 55 + 'px';
-    mainDiv.style.height = 140 + 'px';
+    mainDiv.style.height = 50 + 'px';
     mainDiv.style.width = 400 + 'px';
     mainDiv.style.border = 'solid 1px rgb(255, 255, 255)';
     mainDiv.style.overflowX = 'scroll';

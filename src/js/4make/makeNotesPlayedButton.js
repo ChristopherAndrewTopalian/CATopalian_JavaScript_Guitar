@@ -13,12 +13,12 @@ function makeNotesPlayedButton()
     }
     */
 
-    let theButton = ce('button');
-    theButton.textContent = 'Play';
-    theButton.style.position = 'absolute';
-    theButton.style.left = 530 + 'px';
-    theButton.style.top = 0 + 'px';
-    theButton.onclick = function()
+    let playButton = ce('button');
+    playButton.textContent = 'Play';
+    playButton.style.position = 'absolute';
+    playButton.style.left = 400 + 'px';
+    playButton.style.top = 0 + 'px';
+    playButton.onclick = function()
     {
         clearInterval(timer001);
 
@@ -61,7 +61,7 @@ function makeNotesPlayedButton()
         
         }, 1000);
     };
-    ba(theButton);
+    ba(playButton);
 }
 
 //----//
