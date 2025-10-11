@@ -50,10 +50,10 @@ function makePlayButton()
 
             setTimeout(function()
             {
-                ge(notesPlayed[counter]).style.border = 'solid 1px rgb(0, 0, 0)';
+                ge(notesPlayed[counterLoop]).style.border = 'solid 1px rgb(0, 0, 0)';
 
                 //ge(notesPlayed[counter]).style.backgroundColor = originalColors[counter];
-                counter += 1;
+                counterLoop += 1;
             }, 200);
         
         }, 1000);

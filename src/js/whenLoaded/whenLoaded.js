@@ -10,14 +10,17 @@ function whenLoaded()
     makePlayContainer();
         makeRecordPlayStatus();
         makePlayButton();
+        makePlayLoopButton();
         makeRecordModeButton();
         makePlayModeButton();
 
+    // controls for color adjusting
+    makeColorContainer();
+        makeColorNotesButton();
+        makeColorDefaultButton();
+
     makeChosenScale();
     makeNotesContainer();
-
-    makeColorNotesButton();
-    makeColorDefaultButton();
 
     makeMajorContainer();
     makeMajorButton(cMajorScale);

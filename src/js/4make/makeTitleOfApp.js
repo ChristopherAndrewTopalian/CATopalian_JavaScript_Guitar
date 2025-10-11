@@ -5,9 +5,8 @@ function makeTitleOfApp()
     let mainDiv = ce('div');
     mainDiv.className = 'mainDiv';
     mainDiv.style.position = 'absolute';
-    mainDiv.style.left = 500 + 'px';
-    mainDiv.style.bottom = 0 + 'px';
-    mainDiv.style.width = 70 + 'px';
+    mainDiv.style.right = 0 + 'px';
+    mainDiv.style.top = 0 + 'px';
     mainDiv.style.border = 'solid 2px rgb(0, 0, 0)';
     mainDiv.style.borderRadius = '8px';
     mainDiv.style.padding = '5px 10px';

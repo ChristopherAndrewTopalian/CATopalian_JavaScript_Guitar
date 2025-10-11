@@ -1,17 +1,20 @@
-// makeColorDefaultButton.js
+// makeColorNotesButton.js
 
-function makeColorDefaultButton()
+function makeColorNotesButton()
 {
     let theButton = ce('button');
-    theButton.textContent = 'Color Default';
-    theButton.style.position = 'absolute';
-    theButton.style.right = 160 + 'px';
-    theButton.style.top = 0 + 'px';
+    theButton.textContent = 'Color Natural Notes';
+    theButton.className = 'buttonStyle001';
+    theButton.onmouseover = function()
+    {
+        hoverSound();
+    };
     theButton.onclick = function()
     {
-        colorNotesDefault();
+        clickSound();
+        colorNaturalNotes();
     };
-    ba(theButton);
+    ge('colorContainer').append(theButton);
 }
 
 //----//
