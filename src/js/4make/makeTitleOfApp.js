@@ -1,6 +1,6 @@
-// makeDedication.js
+// makeTitleOfApp.js
 
-function makeDedication()
+function makeTitleOfApp()
 {
     let mainDiv = ce('div');
     mainDiv.className = 'mainDiv';

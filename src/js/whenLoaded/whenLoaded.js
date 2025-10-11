@@ -50,7 +50,7 @@ function whenLoaded()
 
     makeNotesHorizontalContainer();
 
-    makeDedication();
+    makeTitleOfApp();
 }
 
 //----//
