@@ -8,14 +8,13 @@ function whenLoaded()
 
     // controls for playmode, recordmode
     makePlayContainer();
+        makeRecordPlayStatus();
         makeNotesPlayedButton();
         makeRecordModeButton();
         makePlayModeButton();
 
     makeChosenScale();
     makeNotesContainer();
-
-    makeRecordPlayStatus();
 
     makeColorNotesButton();
     makeColorDefaultButton();
