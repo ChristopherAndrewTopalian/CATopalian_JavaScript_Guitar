@@ -16,6 +16,32 @@ function makeGuitar()
 
     //-//
 
+    // fretboardWood
+    let fretboardWood = ce('div');
+    fretboardWood.style.backgroundColor = 'rgba(73, 73, 73, 1)';
+    fretboardWood.style.position = 'absolute';
+    fretboardWood.style.left = '0px';
+    fretboardWood.style.top = '30px';
+    fretboardWood.style.width = '150px';
+    fretboardWood.style.height = '500px';
+    fretboardWood.style.zIndex = -1;
+    ba(fretboardWood);
+
+    /*
+    // fretboardWood
+    let fretboardWood = ce('img');
+    fretboardWood.src = 'src/media/textures/screenshots/001.PNG';
+    fretboardWood.style.position = 'absolute';
+    fretboardWood.style.left = '0px';
+    fretboardWood.style.top = '30px';
+    fretboardWood.style.width = '150px';
+    fretboardWood.style.height = '500px';
+    fretboardWood.style.zIndex = -1;
+    ba(fretboardWood);
+    */
+
+    //-//
+
     let stringSix = ce('div');
     stringSix.style.display = 'flex';
     stringSix.style.flexDirection = 'column';
