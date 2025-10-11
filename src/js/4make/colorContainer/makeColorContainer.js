@@ -5,8 +5,8 @@ function makeColorContainer()
     let colorContainer = ce('div');
     colorContainer.id = 'colorContainer';
     colorContainer.style.position = 'absolute';
-    colorContainer.style.left = '200px';
-    colorContainer.style.bottom = '-15px';
+    colorContainer.style.left = '170px';
+    colorContainer.style.bottom = '0px';
     ba(colorContainer);
 }
 

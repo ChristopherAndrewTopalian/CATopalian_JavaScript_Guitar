@@ -5,8 +5,8 @@ function makePlayContainer()
     let playContainer = ce('div');
     playContainer.id = 'playContainer';
     playContainer.style.position = 'absolute';
-    playContainer.style.left = '200px';
-    playContainer.style.bottom = '10px';
+    playContainer.style.left = '170px';
+    playContainer.style.bottom = '30px';
     ba(playContainer);
 }
 
