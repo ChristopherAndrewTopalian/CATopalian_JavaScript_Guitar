@@ -7,7 +7,7 @@ function makePlayButton()
 {
     let playLoopButton = ce('button');
     playLoopButton.id = 'playLoopButton';
-    playLoopButton.textContent = 'Play Loop';
+    playLoopButton.textContent = 'Play';
 
     playLoopButton.onclick = function()
     {
