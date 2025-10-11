@@ -7,8 +7,6 @@ function makeTitleOfApp()
     mainDiv.style.position = 'absolute';
     mainDiv.style.right = 0 + 'px';
     mainDiv.style.top = 0 + 'px';
-    mainDiv.style.border = 'solid 2px rgb(0, 0, 0)';
-    mainDiv.style.borderRadius = '8px';
     mainDiv.style.padding = '5px 10px';
     ba(mainDiv);
 
@@ -17,6 +15,7 @@ function makeTitleOfApp()
     let titleAndLink = ce('a');
     titleAndLink.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Guitar';
     titleAndLink.target = '_blank';
+    titleAndLink.style.fontFamily = 'Arial';
     titleAndLink.style.fontWeight = 'bold';
     titleAndLink.textContent = 'CATopalian JavaScript Guitar';
     titleAndLink.style.fontSize = '14px';
