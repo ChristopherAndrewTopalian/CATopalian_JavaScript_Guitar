@@ -12,37 +12,37 @@ function makePlayButton()
     playLoopButton.onclick = function()
     {
         // Clear any existing loop
-        clearInterval(timerLoop001);
+        clearInterval(timer001);
 
         // Set to play mode
         isRecordMode = false;
         ge('mode').textContent = 'Play Mode';
 
         // Reset counter
-        counterLoop = 0;
+        counter = 0;
 
         // Start the loop
-        timerLoop001 = setInterval(function()
+        timer001 = setInterval(function()
         {
             // Simulate clicking the note
-            ge(notesPlayed[counterLoop]).click();
+            ge(notesPlayed[counter]).click();
 
             // Highlight the current note
-            ge(notesPlayed[counterLoop]).style.border = 'solid 1px rgb(255, 255, 255)';
+            ge(notesPlayed[counter]).style.border = 'solid 1px rgb(255, 255, 255)';
 
             // Remove highlight after 200ms
             setTimeout(function()
             {
-                ge(notesPlayed[counterLoop]).style.border = 'solid 1px rgb(0, 0, 0)';
+                ge(notesPlayed[counter]).style.border = 'solid 1px rgb(0, 0, 0)';
                 // Increment counter after highlighting
-                counterLoop += 1;
+                counter += 1;
 
                 // Check if the sequence is done
-                if (counterLoop >= notesPlayed.length)
+                if (counter >= notesPlayed.length)
                 {
-                    clearInterval(timerLoop001);
+                    clearInterval(timer001);
                     // Reset counter for potential next play
-                    counterLoop = 0;
+                    counter = 0;
                 }
             }, 200);
 
