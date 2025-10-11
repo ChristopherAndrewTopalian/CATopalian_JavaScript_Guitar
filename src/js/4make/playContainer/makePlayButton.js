@@ -1,9 +1,9 @@
-// makeNotesPlayedButton.js
+// makePlayButton.js
 
 let counter = 0;
 let timer001;
 
-function makeNotesPlayedButton()
+function makePlayButton()
 {
     /*
     for (let i = 0; i < notesPlayed.length; i++)
