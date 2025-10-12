@@ -7,7 +7,7 @@ function makeHarmonicMinorContainer()
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
     mainDiv.style.position = 'absolute';
-    mainDiv.style.left = '670px';
+    mainDiv.style.left = '775px';
     mainDiv.style.top = '50px';
     mainDiv.style.height = 300 + 'px';
     mainDiv.style.overflowY = 'scroll';

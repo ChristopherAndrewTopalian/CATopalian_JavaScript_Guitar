@@ -22,6 +22,7 @@ function whenLoaded()
     makeChosenScale();
     makeNotesContainer();
 
+    /*
     makeMajorContainer();
     makeMajorButton(cMajorScale);
     makeMajorButton(csharpMajorScale);
@@ -35,7 +36,9 @@ function whenLoaded()
     makeMajorButton(aMajorScale);
     makeMajorButton(asharpMajorScale);
     makeMajorButton(bMajorScale);
+    */
 
+    /*
     makeHarmonicMinorContainer();
     makeHarmonicMinorButton(aHarmonicMinorScale);
     makeHarmonicMinorButton(csharpHarmonicMinorScale);
@@ -49,10 +52,27 @@ function whenLoaded()
     makeHarmonicMinorButton(aHarmonicMinorScale);
     makeHarmonicMinorButton(asharpHarmonicMinorScale);
     makeHarmonicMinorButton(bHarmonicMinorScale);
+    */
 
     //-//
 
-    makeScaleContainer('MinorDiatonic', 775, 50);
+    makeScaleContainer('MajorDiatonic', 580, 50);
+    makeScaleButton(aMajorScale, 'MajorDiatonic');
+    makeScaleButton(asharpMajorScale, 'MajorDiatonic');
+    makeScaleButton(bMajorScale, 'MajorDiatonic');
+    makeScaleButton(cMajorScale, 'MajorDiatonic');
+    makeScaleButton(csharpMajorScale, 'MajorDiatonic');
+    makeScaleButton(dMajorScale, 'MajorDiatonic');
+    makeScaleButton(dsharpMajorScale, 'MajorDiatonic');
+    makeScaleButton(eMajorScale, 'MajorDiatonic');
+    makeScaleButton(fMajorScale, 'MajorDiatonic');
+    makeScaleButton(fsharpMajorScale, 'MajorDiatonic');
+    makeScaleButton(gMajorScale, 'MajorDiatonic');
+    makeScaleButton(gsharpMajorScale, 'MajorDiatonic');
+
+    //-//
+
+    makeScaleContainer('MinorDiatonic', 670, 50);
         makeScaleButton(aMinorScale, 'MinorDiatonic');
         makeScaleButton(aSharpMinorScale, 'MinorDiatonic');
         makeScaleButton(bMinorScale, 'MinorDiatonic');
@@ -65,6 +85,25 @@ function whenLoaded()
         makeScaleButton(fSharpMinorScale, 'MinorDiatonic');
         makeScaleButton(gMinorScale, 'MinorDiatonic');
         makeScaleButton(gSharpMinorScale, 'MinorDiatonic');
+
+    //-//
+
+    makeScaleContainer('HarmonicMinor', 775, 50);
+    makeScaleButton(aHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(asharpHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(bHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(cHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(csharpHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(dHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(dsharpHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(eHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(fHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(fsharpMajorScale, 'HarmonicMinor');
+    makeScaleButton(gHarmonicMinorScale, 'HarmonicMinor');
+    makeScaleButton(gsharpHarmonicMinorScale, 'HarmonicMinor');
+    
+
+    //-//
 
     makeNotesHorizontalContainer();
 
