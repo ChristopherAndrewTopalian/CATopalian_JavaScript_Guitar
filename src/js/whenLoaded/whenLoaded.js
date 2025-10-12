@@ -25,18 +25,18 @@ function whenLoaded()
     //-//
 
     makeScaleContainer('MajorDiatonic', 580, 50);
-    makeScaleButton(aMajorScale, 'MajorDiatonic');
-    makeScaleButton(asharpMajorScale, 'MajorDiatonic');
-    makeScaleButton(bMajorScale, 'MajorDiatonic');
-    makeScaleButton(cMajorScale, 'MajorDiatonic');
-    makeScaleButton(csharpMajorScale, 'MajorDiatonic');
-    makeScaleButton(dMajorScale, 'MajorDiatonic');
-    makeScaleButton(dsharpMajorScale, 'MajorDiatonic');
-    makeScaleButton(eMajorScale, 'MajorDiatonic');
-    makeScaleButton(fMajorScale, 'MajorDiatonic');
-    makeScaleButton(fsharpMajorScale, 'MajorDiatonic');
-    makeScaleButton(gMajorScale, 'MajorDiatonic');
-    makeScaleButton(gsharpMajorScale, 'MajorDiatonic');
+        makeScaleButton(aMajorScale, 'MajorDiatonic');
+        makeScaleButton(asharpMajorScale, 'MajorDiatonic');
+        makeScaleButton(bMajorScale, 'MajorDiatonic');
+        makeScaleButton(cMajorScale, 'MajorDiatonic');
+        makeScaleButton(csharpMajorScale, 'MajorDiatonic');
+        makeScaleButton(dMajorScale, 'MajorDiatonic');
+        makeScaleButton(dsharpMajorScale, 'MajorDiatonic');
+        makeScaleButton(eMajorScale, 'MajorDiatonic');
+        makeScaleButton(fMajorScale, 'MajorDiatonic');
+        makeScaleButton(fsharpMajorScale, 'MajorDiatonic');
+        makeScaleButton(gMajorScale, 'MajorDiatonic');
+        makeScaleButton(gsharpMajorScale, 'MajorDiatonic');
 
     //-//
 
@@ -57,18 +57,18 @@ function whenLoaded()
     //-//
 
     makeScaleContainer('HarmonicMinor', 775, 50);
-    makeScaleButton(aHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(asharpHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(bHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(cHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(csharpHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(dHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(dsharpHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(eHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(fHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(fsharpMajorScale, 'HarmonicMinor');
-    makeScaleButton(gHarmonicMinorScale, 'HarmonicMinor');
-    makeScaleButton(gsharpHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(aHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(asharpHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(bHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(cHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(csharpHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(dHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(dsharpHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(eHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(fHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(fsharpMajorScale, 'HarmonicMinor');
+        makeScaleButton(gHarmonicMinorScale, 'HarmonicMinor');
+        makeScaleButton(gsharpHarmonicMinorScale, 'HarmonicMinor');
 
     //-//
 
