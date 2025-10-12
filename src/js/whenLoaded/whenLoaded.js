@@ -56,7 +56,7 @@ function whenLoaded()
 
     //-//
 
-    makeScaleContainer('HarmonicMinor', 775, 50);
+    makeScaleContainer('HarmonicMinor', 765, 50);
         makeScaleButton(aHarmonicMinorScale, 'HarmonicMinor');
         makeScaleButton(asharpHarmonicMinorScale, 'HarmonicMinor');
         makeScaleButton(bHarmonicMinorScale, 'HarmonicMinor');
