@@ -6,7 +6,7 @@ let aSharpLocrian = ["asharp", "b", "csharp", "dsharp", "e", "fsharp", "gsharp"]
 
 let bLocrian = ["b", "c", "d", "e", "f", "g", "a"];
 
-let cLocrian = ["c", "db", "dsharp", "f", "gb", "ab", "bb"];
+let cLocrian = ["c", "csharp", "dsharp", "f", "fsharp", "gsharp", "asharp"];
 
 let cSharpLocrian = ["csharp", "d", "e", "fsharp", "g", "a", "b"];
 
