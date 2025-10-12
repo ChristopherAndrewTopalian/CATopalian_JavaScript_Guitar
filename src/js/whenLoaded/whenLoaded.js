@@ -50,6 +50,22 @@ function whenLoaded()
     makeHarmonicMinorButton(asharpHarmonicMinorScale);
     makeHarmonicMinorButton(bHarmonicMinorScale);
 
+    //-//
+
+    makeScaleContainer('MinorDiatonic', 775, 50);
+        makeScaleButton(aMinorScale, 'MinorDiatonic');
+        makeScaleButton(aSharpMinorScale, 'MinorDiatonic');
+        makeScaleButton(bMinorScale, 'MinorDiatonic');
+        makeScaleButton(cMinorScale, 'MinorDiatonic');
+        makeScaleButton(cSharpMinorScale, 'MinorDiatonic');
+        makeScaleButton(dMinorScale, 'MinorDiatonic');
+        makeScaleButton(dSharpMinorScale, 'MinorDiatonic');
+        makeScaleButton(eMinorScale, 'MinorDiatonic');
+        makeScaleButton(fMinorScale, 'MinorDiatonic');
+        makeScaleButton(fSharpMinorScale, 'MinorDiatonic');
+        makeScaleButton(gMinorScale, 'MinorDiatonic');
+        makeScaleButton(gSharpMinorScale, 'MinorDiatonic');
+
     makeNotesHorizontalContainer();
 
     makeTitleOfApp();

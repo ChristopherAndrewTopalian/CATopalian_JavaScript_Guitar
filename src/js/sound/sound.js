@@ -54,11 +54,11 @@ function clickSound()
         400,     // frequency
         500,     // duration
         'sine',  // waveType
-        0.2,      // volume
-        50,       // detune
-        0.2,      // attackTime
-        0.2,      // releaseTime
-        -0.5      // panValue -0.5 is left
+        0.02,      // volume
+        0,       // detune
+        0.1,      // attackTime
+        0.1,      // releaseTime
+        0.0      // panValue -0.5 is left
     );
 }
 

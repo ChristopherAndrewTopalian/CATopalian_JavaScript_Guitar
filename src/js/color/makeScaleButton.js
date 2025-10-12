@@ -1,26 +1,27 @@
 // makeHarmonicMinorContainer.js
 
-function makeHarmonicMinorContainer()
+function makeScaleContainer(whichName, whichX, whichY)
 {
     let mainDiv = ce('div');
-    mainDiv.id = 'harmonicMinorContainer';
+    mainDiv.id = whichName;
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
     mainDiv.style.position = 'absolute';
-    mainDiv.style.left = '670px';
-    mainDiv.style.top = '50px';
+    mainDiv.style.left = whichX;
+    mainDiv.style.top = whichY
     mainDiv.style.height = 300 + 'px';
     mainDiv.style.overflowY = 'scroll';
-    mainDiv.innerHTML = 'HARMONIC<br>MINOR';
+    mainDiv.textContent = whichName;
     mainDiv.style.fontSize = '12px';
     mainDiv.style.fontWeight = 'bold';
     mainDiv.style.textAlign = 'center';
+    mainDiv.style.zIndex = 3000;
     ba(mainDiv);
 
     makeElementDraggable(mainDiv);
 }
 
-function makeHarmonicMinorButton(whichScale)
+function makeScaleButton(whichScale, whichContainer)
 {
     let theButton = ce('button');
     theButton.textContent = whichScale[0].toUpperCase();
@@ -36,7 +37,7 @@ function makeHarmonicMinorButton(whichScale)
         colorNotesDefault();
         colorTheScale(whichScale);
     };
-    ge('harmonicMinorContainer').append(theButton);
+    ge(whichContainer).append(theButton);
 }
 
 //----//

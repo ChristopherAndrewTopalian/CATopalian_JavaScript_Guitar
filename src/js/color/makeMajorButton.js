@@ -7,7 +7,7 @@ function makeMajorContainer()
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
     mainDiv.style.position = 'absolute';
-    mainDiv.style.left = '600px';
+    mainDiv.style.left = '580px';
     mainDiv.style.top = '50px';
     mainDiv.style.height = 300 + 'px';
     mainDiv.style.overflowY = 'scroll';
