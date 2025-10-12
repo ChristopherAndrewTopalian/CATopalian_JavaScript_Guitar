@@ -14,7 +14,7 @@ let dLocrian = ["d", "dsharp", "f", "g", "gsharp", "asharp", "c"];
 
 let dSharpLocrian = ["dsharp", "e", "fsharp", "gsharp", "a", "b", "csharp"];
 
-let eLocrian = ["e", "f", "g", "a", "bb", "b", "d"];
+let eLocrian = ["e", "f", "g", "a", "b", "c", "d"];
 
 let fLocrian = ["f", "fsharp", "gsharp", "asharp", "asharp", "csharp", "dsharp"];
 
