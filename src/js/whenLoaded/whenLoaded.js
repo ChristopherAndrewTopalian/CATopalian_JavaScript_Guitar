@@ -128,6 +128,23 @@ function whenLoaded()
 
     //-//
 
+    // HungarianMinor
+    makeScaleContainer('HungarianMinor', 960, 50);
+        makeScaleButton(aHungarianMinor, 'HungarianMinor');
+        makeScaleButton(aSharpHungarianMinor, 'HungarianMinor');
+        makeScaleButton(bHungarianMinor, 'HungarianMinor');
+        makeScaleButton(cHungarianMinor, 'HungarianMinor');
+        makeScaleButton(cSharpHungarianMinor, 'HungarianMinor');
+        makeScaleButton(dHungarianMinor, 'HungarianMinor');
+        makeScaleButton(dHungarianMinor, 'HungarianMinor');
+        makeScaleButton(eHungarianMinor, 'HungarianMinor');
+        makeScaleButton(fHungarianMinor, 'HungarianMinor');
+        makeScaleButton(fSharpHungarianMinor, 'HungarianMinor');
+        makeScaleButton(gHungarianMinor, 'HungarianMinor');
+        makeScaleButton(gSharpHungarianMinor, 'HungarianMinor');
+
+    //-//
+
     makeNotesHorizontalContainer();
 
     makeTitleOfApp();
