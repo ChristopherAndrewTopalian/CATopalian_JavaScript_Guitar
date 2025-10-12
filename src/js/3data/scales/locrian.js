@@ -1,6 +1,6 @@
 // locrian.js
 
-let aLocrian = ["a", "gsharp", "c", "d", "dsharp", "f", "g"];
+let aLocrian = ["a", "b", "c", "d", "e", "f", "g"];
 
 let aSharpLocrian = ["asharp", "b", "csharp", "dsharp", "e", "fsharp", "gsharp"];
 
