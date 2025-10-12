@@ -147,18 +147,18 @@ function whenLoaded()
 
     // Locrian
     makeScaleContainer('Locrian', 960, 50);
-        makeScaleButton(aHungarianMinor, 'Locrian');
-        makeScaleButton(aSharpHungarianMinor, 'Locrian');
-        makeScaleButton(bHungarianMinor, 'Locrian');
-        makeScaleButton(cHungarianMinor, 'Locrian');
-        makeScaleButton(cSharpHungarianMinor, 'Locrian');
-        makeScaleButton(dHungarianMinor, 'Locrian');
-        makeScaleButton(dSharpHungarianMinor, 'Locrian');
-        makeScaleButton(eHungarianMinor, 'Locrian');
-        makeScaleButton(fHungarianMinor, 'Locrian');
-        makeScaleButton(fSharpHungarianMinor, 'Locrian');
-        makeScaleButton(gHungarianMinor, 'Locrian');
-        makeScaleButton(gSharpHungarianMinor, 'Locrian');
+        makeScaleButton(aLocrian, 'Locrian');
+        makeScaleButton(aSharpLocrian, 'Locrian');
+        makeScaleButton(bLocrian, 'Locrian');
+        makeScaleButton(cLocrian, 'Locrian');
+        makeScaleButton(cSharpLocrian, 'Locrian');
+        makeScaleButton(dLocrian, 'Locrian');
+        makeScaleButton(dSharpLocrian, 'Locrian');
+        makeScaleButton(eLocrian, 'Locrian');
+        makeScaleButton(fLocrian, 'Locrian');
+        makeScaleButton(fSharpLocrian, 'Locrian');
+        makeScaleButton(gLocrian, 'Locrian');
+        makeScaleButton(gSharpLocrian, 'Locrian');
 
     //-//
 

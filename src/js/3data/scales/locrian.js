@@ -2,7 +2,7 @@
 
 let aLocrian = ["a", "bb", "c", "d", "eb", "f", "g"];
 
-let asharedLocrian = ["asharp", "b", "c#", "d#", "e", "f#", "g#"];
+let aSharpLocrian = ["asharp", "b", "c#", "d#", "e", "f#", "g#"];
 
 let bLocrian = ["b", "c", "d", "e", "f", "g", "a"];
 
