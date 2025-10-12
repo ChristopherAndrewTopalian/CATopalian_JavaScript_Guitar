@@ -36,8 +36,13 @@ function makeScaleButton(whichScale, whichContainer)
     theButton.onclick = function()
     {
         clickSound();
+    
         colorNotesDefault();
+
+        ge('chosenScale').textContent = whichContainer + ' - ' + whichScale;
+
         colorTheScale(whichScale);
+        
     };
     ge(whichContainer).append(theButton);
 }

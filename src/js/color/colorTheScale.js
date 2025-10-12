@@ -2,8 +2,6 @@
 
 function colorTheScale(whichScale)
 {
-    ge('chosenScale').textContent = whichScale;
-
     for (let x = 0; x < fretNotes.length; x++)
     {
         //let noteOnly = fretNotes[x].id;
