@@ -24,6 +24,7 @@ function whenLoaded()
 
     //-//
 
+    // MajorDiatonic
     makeScaleContainer('MajorDiatonic', 580, 50);
         makeScaleButton(aMajorScale, 'MajorDiatonic');
         makeScaleButton(asharpMajorScale, 'MajorDiatonic');
@@ -40,6 +41,7 @@ function whenLoaded()
 
     //-//
 
+    // MinorDiatonic
     makeScaleContainer('MinorDiatonic', 670, 50);
         makeScaleButton(aMinorScale, 'MinorDiatonic');
         makeScaleButton(aSharpMinorScale, 'MinorDiatonic');
@@ -56,6 +58,7 @@ function whenLoaded()
 
     //-//
 
+    // HarmonicMinor
     makeScaleContainer('HarmonicMinor', 765, 50);
         makeScaleButton(aHarmonicMinorScale, 'HarmonicMinor');
         makeScaleButton(asharpHarmonicMinorScale, 'HarmonicMinor');
