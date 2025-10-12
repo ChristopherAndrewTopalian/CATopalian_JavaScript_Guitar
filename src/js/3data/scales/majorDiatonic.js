@@ -1,4 +1,4 @@
-// majorDiatonicScales.js
+// majorDiatonic.js
 
 let aMajorScale = [ "a", "b", "csharp", "d", "e", "fsharp", "gsharp" ];
 
