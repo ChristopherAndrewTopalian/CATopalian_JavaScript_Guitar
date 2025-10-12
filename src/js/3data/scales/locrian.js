@@ -2,27 +2,27 @@
 
 let aLocrian = ["a", "bb", "c", "d", "eb", "f", "g"];
 
-let aSharpLocrian = ["asharp", "b", "c#", "d#", "e", "f#", "g#"];
+let aSharpLocrian = ["asharp", "b", "csharp", "dsharp", "e", "fsharp", "gsharp"];
 
 let bLocrian = ["b", "c", "d", "e", "f", "g", "a"];
 
-let cLocrian = ["c", "db", "d#", "f", "gb", "ab", "bb"];
+let cLocrian = ["c", "db", "dsharp", "f", "gb", "ab", "bb"];
 
-let cSharpLocrian = ["csharp", "d", "e", "f#", "g", "a", "b"];
+let cSharpLocrian = ["csharp", "d", "e", "fsharp", "g", "a", "b"];
 
 let dLocrian = ["d", "eb", "f", "g", "ab", "bb", "c"];
 
-let dSharpLocrian = ["d#", "e", "f#", "g#", "a", "b", "c#"];
+let dSharpLocrian = ["dsharp", "e", "fsharp", "gsharp", "a", "b", "csharp"];
 
 let eLocrian = ["e", "f", "g", "a", "bb", "b", "d"];
 
-let fLocrian = ["f", "gb", "g#", "bb", "cb", "db", "eb"];
+let fLocrian = ["f", "gb", "gsharp", "bb", "cb", "db", "eb"];
 
-let fSharpLocrian = ["f#", "g", "a", "b", "c", "d", "e"];
+let fSharpLocrian = ["fsharp", "g", "a", "b", "c", "d", "e"];
 
-let gLocrian = ["g", "ab", "bb", "c", "db", "d#", "f"];
+let gLocrian = ["g", "ab", "bb", "c", "db", "dsharp", "f"];
 
-let gSharpLocrian = ["g#", "a", "b", "c#", "d", "e", "f#"];
+let gSharpLocrian = ["gsharp", "a", "b", "csharp", "d", "e", "fsharp"];
 
 //----//
 
