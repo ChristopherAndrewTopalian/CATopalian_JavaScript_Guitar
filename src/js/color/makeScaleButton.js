@@ -26,7 +26,6 @@ function makeScaleContainer(whichName, whichX, whichY)
 function makeScaleButton(whichScale, whichContainer)
 {
     let theButton = ce('button');
-    // theButton.style.alignSelf = 'flex-start';
     theButton.textContent = whichScale[0].toUpperCase();
     theButton.style.fontSize = '12px';
     theButton.title = whichScale;
