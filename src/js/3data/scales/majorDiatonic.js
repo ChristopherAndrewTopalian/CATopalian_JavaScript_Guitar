@@ -23,3 +23,12 @@ let fsharpMajorScale = [ "fsharp", "gsharp", "asharp", "b", "csharp", "dsharp", 
 let gMajorScale = [ "g", "a", "b", "c", "d", "e", "fsharp" ];
 
 let gsharpMajorScale = [ "gsharp", "asharp", "b", "csharp", "dsharp", "f", "fsharp" ];
+
+//----//
+
+// Dedicated to God the Father
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// https://github.com/ChristopherTopalian
+// https://github.com/ChristopherAndrewTopalian
+// https://sites.google.com/view/CollegeOfScripting
+

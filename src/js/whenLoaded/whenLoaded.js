@@ -75,6 +75,23 @@ function whenLoaded()
 
     //-//
 
+    // HarmonicMinor
+    makeScaleContainer('MelodicMinor', 880, 50);
+        makeScaleButton(aMelodicMinor, 'MelodicMinor');
+        makeScaleButton(aSharpMelodicMinor, 'MelodicMinor');
+        makeScaleButton(bMelodicMinor, 'MelodicMinor');
+        makeScaleButton(cMelodicMinor, 'MelodicMinor');
+        makeScaleButton(cSharpMelodicMinor, 'MelodicMinor');
+        makeScaleButton(dMelodicMinor, 'MelodicMinor');
+        makeScaleButton(dSharpMelodicMinor, 'MelodicMinor');
+        makeScaleButton(eMelodicMinor, 'MelodicMinor');
+        makeScaleButton(fMelodicMinor, 'MelodicMinor');
+        makeScaleButton(fSharpMelodicMinor, 'MelodicMinor');
+        makeScaleButton(gMelodicMinor, 'MelodicMinor');
+        makeScaleButton(gSharpMelodicMinor, 'MelodicMinor');
+
+    //-//
+
     makeNotesHorizontalContainer();
 
     makeTitleOfApp();
