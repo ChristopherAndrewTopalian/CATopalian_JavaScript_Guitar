@@ -4,7 +4,7 @@ let aMelodicMinor = ["a", "b", "c", "d", "e", "fsharp", "gsharp"];
 
 let aSharpMelodicMinor = ["asharp", "b", "csharp", "dsharp", "e", "fsharp", "gsharp"];
 
-let bMelodicMinor = ["b", "csharp", "dsharp", "e", "fsharp", "gsharp", "asharp"];
+let bMelodicMinor = ["b", "csharp", "d", "e", "fsharp", "gsharp", "asharp"];
 
 let cMelodicMinor = ["c", "d", "dsharp", "f", "g", "a", "b"];
 
