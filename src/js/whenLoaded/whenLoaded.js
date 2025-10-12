@@ -24,6 +24,8 @@ function whenLoaded()
 
     //-//
 
+    makeScalesContainer();
+
     // MajorDiatonic
     makeScaleContainer('MajorDiatonic', 580, 50);
         makeScaleButton(aMajorScale, 'MajorDiatonic');

@@ -1,4 +1,4 @@
-// makeHarmonicMinorContainer.js
+// makeScaleButton.js
 
 function makeScaleContainer(whichName, whichX, whichY)
 {
@@ -6,9 +6,9 @@ function makeScaleContainer(whichName, whichX, whichY)
     mainDiv.id = whichName;
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'column';
-    mainDiv.style.position = 'absolute';
-    mainDiv.style.left = whichX;
-    mainDiv.style.top = whichY
+    //mainDiv.style.position = 'absolute';
+    //mainDiv.style.left = whichX;
+    //mainDiv.style.top = whichY
     mainDiv.style.height = 300 + 'px';
     mainDiv.style.overflowY = 'scroll';
     mainDiv.textContent = whichName;
@@ -16,7 +16,9 @@ function makeScaleContainer(whichName, whichX, whichY)
     mainDiv.style.fontWeight = 'bold';
     mainDiv.style.textAlign = 'center';
     mainDiv.style.zIndex = 3000;
-    ba(mainDiv);
+    mainDiv.style.flexShrink = 0; // prevent shrinking 
+    mainDiv.style.flexGrow = 0; // prevent growing
+    ge('scalesContainer').append(mainDiv);
 
     makeElementDraggable(mainDiv);
 }
@@ -24,6 +26,7 @@ function makeScaleContainer(whichName, whichX, whichY)
 function makeScaleButton(whichScale, whichContainer)
 {
     let theButton = ce('button');
+    // theButton.style.alignSelf = 'flex-start';
     theButton.textContent = whichScale[0].toUpperCase();
     theButton.style.fontSize = '12px';
     theButton.title = whichScale;
