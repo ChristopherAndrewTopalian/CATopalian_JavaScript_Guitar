@@ -77,7 +77,7 @@ function whenLoaded()
 
     //-//
 
-    // HarmonicMinor
+    // MelodicMinor
     makeScaleContainer('MelodicMinor', 870, 50);
         makeScaleButton(aMelodicMinor, 'MelodicMinor');
         makeScaleButton(aSharpMelodicMinor, 'MelodicMinor');
@@ -94,7 +94,7 @@ function whenLoaded()
 
     //-//
 
-    // HarmonicMinor
+    // Phrygian
     makeScaleContainer('Phrygian', 960, 50);
         makeScaleButton(aPhrygian, 'Phrygian');
         makeScaleButton(aSharpPhrygian, 'Phrygian');
@@ -108,6 +108,23 @@ function whenLoaded()
         makeScaleButton(fSharpPhrygian, 'Phrygian');
         makeScaleButton(gPhrygian, 'Phrygian');
         makeScaleButton(gSharpPhrygian, 'Phrygian');
+
+    //-//
+
+    // PhrygianDominant
+    makeScaleContainer('PhrygianDominant', 960, 50);
+        makeScaleButton(aPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(aSharpPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(bPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(cPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(cSharpPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(dPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(dSharpPhrygian, 'PhrygianDominant');
+        makeScaleButton(ePhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(fPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(fSharpPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(gPhrygianDominant, 'PhrygianDominant');
+        makeScaleButton(gSharpPhrygianDominant, 'PhrygianDominant');
 
     //-//
 
