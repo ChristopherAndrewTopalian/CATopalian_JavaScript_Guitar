@@ -164,6 +164,47 @@ function whenLoaded()
 
     makeNotesHorizontalContainer();
 
+    makePowerChordsContainer();
+        makePowerChords('e2_note', 'b2_note');
+
+        makePowerChords('f2_note', 'c3_note');
+
+        makePowerChords('fsharp2_note', 'csharp3_note');
+
+        makePowerChords('g2_note', 'd3_note');
+
+        makePowerChords('gsharp2_note', 'dsharp3_note');
+
+        makePowerChords('a2_note', 'e3_note');
+
+        makePowerChords('asharp2_note', 'f3_note');
+
+        makePowerChords('b2_note', 'fsharp3_note');
+
+        makePowerChords('c3_note', 'g3_note');
+
+        makePowerChords('csharp3_note', 'gsharp3_note');
+
+        makePowerChords('d3_note', 'a3_note');
+
+        makePowerChords('dsharp3_note', 'asharp3_note');
+
+        makePowerChords('e3_note', 'b3_note');
+
+        makePowerChords('f3_note', 'c4_note');
+
+        makePowerChords('fsharp3_note', 'csharp4_note');
+
+        makePowerChords('g3_note', 'd4_note');
+
+        makePowerChords('gsharp3_note', 'dsharp4_note');
+
+        makePowerChords('a3_note', 'e4_note');
+
+        makePowerChords('asharp3_note', 'f4_note');
+
+    //----//
+
     makeTitleOfApp();
 }
 

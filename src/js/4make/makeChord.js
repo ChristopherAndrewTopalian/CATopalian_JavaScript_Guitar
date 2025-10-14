@@ -3,11 +3,12 @@
 function makeChord()
 {
     let chordButton = ce('button');
-    chordButton.textContent = 'Chord';
+    chordButton.textContent = 'Chord On';
     chordButton.onclick = function()
     {
         isChordMode = true;
     };
+    ba(chordButton);
 }
 
 //----//
