@@ -9,6 +9,8 @@ let originalColors = { };
 
 let notesPlayed = [];
 
+let keySensor;
+
 //----//
 
 // Dedicated to God the Father

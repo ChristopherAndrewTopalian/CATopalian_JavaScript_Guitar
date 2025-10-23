@@ -206,6 +206,16 @@ function whenLoaded()
     //----//
 
     makeTitleOfApp();
+
+    //-//
+
+    keySensor = function(event)
+    {
+        whichKeyPressed(event);
+    };
+
+    //enableKeyboardInput();
+    window.addEventListener("keydown", keySensor, false);
 }
 
 //----//
