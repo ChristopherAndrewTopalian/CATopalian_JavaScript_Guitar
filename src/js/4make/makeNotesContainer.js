@@ -5,7 +5,7 @@ function makeNotesContainer()
     let notesContainer = ce('div');
     notesContainer.id = 'notesContainer';
     notesContainer.style.width = 400 + 'px';
-    notesContainer.style.height = 30 + 'px';
+    notesContainer.style.height = 40 + 'px';
     notesContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     //notesContainer.style.wordWrap = 'break-word';
     //notesContainer.style.overflowWrap = 'break-word';
