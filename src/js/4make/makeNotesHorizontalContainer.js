@@ -4,16 +4,13 @@ function makeNotesHorizontalContainer()
 {
     let mainDiv = ce('div');
     mainDiv.id = 'notesHorizontalContainer';
-    mainDiv.style.position = 'absolute';
-    mainDiv.style.left = '165px';
-    mainDiv.style.bottom = 80 + 'px';
     mainDiv.style.height = 70 + 'px';
     mainDiv.style.width = 400 + 'px';
     mainDiv.style.border = 'solid 1px rgb(255, 255, 255)';
     mainDiv.style.overflowX = 'scroll';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'row';
-    ba(mainDiv);
+    ge('middleContainer').append(mainDiv);
 }
 
 //----//

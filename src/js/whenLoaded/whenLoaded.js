@@ -6,21 +6,24 @@ function whenLoaded()
 
     makeGuitar();
 
-    // controls for playmode, recordmode
-    makePlayContainer();
-        makeRecordPlayStatus();
-        makePlayButton();
-        makePlayLoopButton();
-        makeRecordModeButton();
-        makePlayModeButton();
-
-    // controls for color adjusting
-    makeColorContainer();
-        makeColorNotesButton();
-        makeColorDefaultButton();
-
     makeChosenScale();
-    makeNotesContainer();
+
+    makeMiddleContainer();
+        makeNotesContainer();
+        makeNotesHorizontalContainer();
+        makeAooSongTextArea();
+
+        // controls for playmode, recordmode
+        makePlayContainer();
+            makeRecordPlayStatus();
+            makePlayButton();
+            makePlayLoopButton();
+            makeRecordModeButton();
+            makePlayModeButton();
+            // controls for color adjusting
+            makeColorContainer();
+                makeColorNotesButton();
+                makeColorDefaultButton();
 
     //-//
 
@@ -162,8 +165,6 @@ function whenLoaded()
 
     //-//
 
-    makeNotesHorizontalContainer();
-
     makePowerChordsContainer();
         makePowerChords('e2_note', 'b2_note');
 
@@ -209,6 +210,7 @@ function whenLoaded()
 
     //-//
 
+    /*
     keySensor = function(event)
     {
         whichKeyPressed(event);
@@ -216,6 +218,7 @@ function whenLoaded()
 
     //enableKeyboardInput();
     window.addEventListener("keydown", keySensor, false);
+    */
 }
 
 //----//

@@ -4,15 +4,13 @@ function makePowerChordsContainer()
 {
     let powerChordsContainer = ce('div');
     powerChordsContainer.id = 'powerChordsContainer';
-    powerChordsContainer.style.position = 'absolute';
-    powerChordsContainer.style.left = '170px';
-    powerChordsContainer.style.top = '380px';
+    powerChordsContainer.style.width = '140px';
     powerChordsContainer.style.height = '200px';
     powerChordsContainer.textContent = 'Power Chords';
     powerChordsContainer.style.overflowY = 'scroll';
     powerChordsContainer.style.display = 'flex';
     powerChordsContainer.style.flexDirection = 'column';
-    ba(powerChordsContainer);
+    ge('middleContainer').append(powerChordsContainer);
 }
 
 function makePowerChords(note001, note002)

@@ -4,18 +4,15 @@ function makeNotesContainer()
 {
     let notesContainer = ce('div');
     notesContainer.id = 'notesContainer';
-    notesContainer.style.position = 'absolute';
-    notesContainer.style.left = 160 + 'px';
-    notesContainer.style.top = 25 + 'px';
     notesContainer.style.width = 400 + 'px';
-    notesContainer.style.height = 120 + 'px';
-    notesContainer.style.overflow = 'scroll';
+    notesContainer.style.height = 30 + 'px';
     notesContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     //notesContainer.style.wordWrap = 'break-word';
-    notesContainer.style.overflowWrap = 'break-word';
+    //notesContainer.style.overflowWrap = 'break-word';
+    notesContainer.style.overflowX = 'scroll';
     //notesContainer.style.whiteSpace = 'normal';
     // notesContainer.contentEditable = 'true';
-    ba(notesContainer);
+    ge('middleContainer').append(notesContainer);
 }
 
 //----//

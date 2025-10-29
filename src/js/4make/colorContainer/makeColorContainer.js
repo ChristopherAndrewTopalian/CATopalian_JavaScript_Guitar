@@ -4,10 +4,11 @@ function makeColorContainer()
 {
     let colorContainer = ce('div');
     colorContainer.id = 'colorContainer';
-    colorContainer.style.position = 'absolute';
-    colorContainer.style.left = '170px';
-    colorContainer.style.bottom = '5px';
-    ba(colorContainer);
+    colorContainer.style.marginBottom = '10px';
+    //colorContainer.style.position = 'absolute';
+    //colorContainer.style.left = '170px';
+    //colorContainer.style.bottom = '5px';
+    ge('middleContainer').append(colorContainer);
 }
 
 //----//
