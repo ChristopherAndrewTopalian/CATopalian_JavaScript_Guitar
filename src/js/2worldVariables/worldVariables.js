@@ -9,6 +9,8 @@ let originalColors = { };
 
 let notesPlayed = [];
 
+let notesPlayedAoo = [];
+
 let keySensor;
 
 //----//

@@ -59,12 +59,25 @@ function makeGuitar()
         note.onclick = function()
         {
             cl(sixthString[i].noteName);
+
             audioPlay(sixthString[i].fileName, 1.0);
 
             if (isRecordMode == true)
             {
                 notesPlayed.push(sixthString[i].id);
+
+                //notesPlayedAoo.push('note:' + sixthString[i].id);
+
+                notesPlayedAoo.push(
+                {
+                    note: sixthString[i].id,
+                    duration: 2
+                });
+
+                // send notes to notesContainer
                 ge('notesContainer').innerHTML = notesPlayed;
+
+                ge("notesContainerAoo").innerHTML = JSON.stringify(notesPlayedAoo);
 
                 let clonedNote = this.cloneNode(true);
 
@@ -109,7 +122,16 @@ function makeGuitar()
             if (isRecordMode == true)
             {
                 notesPlayed.push(fifthString[i].id);
+
+                notesPlayedAoo.push(
+                {
+                    note: fifthString[i].id,
+                    duration: 2
+                });
+
                 ge('notesContainer').innerHTML = notesPlayed;
+
+                ge("notesContainerAoo").innerHTML = JSON.stringify(notesPlayedAoo);
 
                 let clonedNote = this.cloneNode(true);
 
@@ -143,7 +165,16 @@ function makeGuitar()
             if (isRecordMode == true)
             {
                 notesPlayed.push(fourthString[i].id);
+
+                notesPlayedAoo.push(
+                {
+                    note: fourthString[i].id,
+                    duration: 2
+                });
+
                 ge('notesContainer').innerHTML = notesPlayed;
+
+                ge("notesContainerAoo").innerHTML = JSON.stringify(notesPlayedAoo);
 
                 let clonedNote = this.cloneNode(true);
 
@@ -177,7 +208,16 @@ function makeGuitar()
             if (isRecordMode == true)
             {
                 notesPlayed.push(thirdString[i].id);
+
+                notesPlayedAoo.push(
+                {
+                    note: thirdString[i].id,
+                    duration: 2
+                });
+
                 ge('notesContainer').innerHTML = notesPlayed;
+
+                ge("notesContainerAoo").innerHTML = JSON.stringify(notesPlayedAoo);
 
                 let clonedNote = this.cloneNode(true);
 
@@ -211,7 +251,16 @@ function makeGuitar()
             if (isRecordMode == true)
             {
                 notesPlayed.push(secondString[i].id);
+
+                notesPlayedAoo.push(
+                {
+                    note: secondString[i].id,
+                    duration: 2
+                });
+
                 ge('notesContainer').innerHTML = notesPlayed;
+
+                ge("notesContainerAoo").innerHTML = JSON.stringify(notesPlayedAoo);
 
                 let clonedNote = this.cloneNode(true);
 
@@ -245,7 +294,16 @@ function makeGuitar()
             if (isRecordMode == true)
             {
                 notesPlayed.push(firstString[i].id);
+
+                notesPlayedAoo.push(
+                {
+                    note: firstString[i].id,
+                    duration: 2
+                });
+
                 ge('notesContainer').innerHTML = notesPlayed;
+
+                ge("notesContainerAoo").innerHTML = JSON.stringify(notesPlayedAoo);
 
                 let clonedNote = this.cloneNode(true);
 

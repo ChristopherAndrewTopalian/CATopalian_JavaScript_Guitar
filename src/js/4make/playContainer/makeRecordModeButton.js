@@ -4,6 +4,7 @@ function makeRecordModeButton()
 {
     let theButton = ce('button');
     theButton.textContent = 'Record Mode';
+    theButton.style.alignSelf = 'flex-start';
     theButton.onclick = function()
     {
         clearInterval(timer001);
@@ -14,7 +15,7 @@ function makeRecordModeButton()
 
         ge('mode').textContent = 'Record Mode';
     };
-    ge('playContainer').append(theButton);
+    ge('middleContainer').append(theButton);
 }
 
 //----//

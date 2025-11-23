@@ -10,6 +10,9 @@ function whenLoaded()
 
     makeMiddleContainer();
         makeNotesContainer();
+        makeNotesContainerAoo();
+        makeRecordModeButton();
+        makePlayModeButton();
         makeNotesHorizontalContainer();
         makeAooSongTextArea();
 
@@ -18,8 +21,6 @@ function whenLoaded()
             makeRecordPlayStatus();
             makePlayButton();
             makePlayLoopButton();
-            makeRecordModeButton();
-            makePlayModeButton();
             // controls for color adjusting
             makeColorContainer();
                 makeColorNotesButton();
