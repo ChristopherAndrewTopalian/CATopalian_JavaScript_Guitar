@@ -15,7 +15,8 @@ function makeRecordModeButton()
 
         ge('mode').textContent = 'Record Mode';
     };
-    ge('middleContainer').append(theButton);
+    //ge('middleContainer').append(theButton);
+    return theButton;
 }
 
 //----//

@@ -14,7 +14,9 @@ function makeColorNotesButton()
         clickSound();
         colorNaturalNotes();
     };
-    ge('colorContainer').append(theButton);
+    //ge('colorContainer').append(theButton);
+
+    return theButton;
 }
 
 //----//

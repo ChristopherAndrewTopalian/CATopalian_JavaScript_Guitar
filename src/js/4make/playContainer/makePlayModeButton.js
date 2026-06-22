@@ -15,7 +15,9 @@ function makePlayModeButton()
 
         ge('mode').textContent = 'Play Mode';
     };
-    ge('middleContainer').append(theButton);
+    //ge('middleContainer').append(theButton);
+
+    return theButton;
 }
 
 //----//

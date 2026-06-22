@@ -13,7 +13,7 @@ function makeAooSongTextArea()
     aooContainer.id = 'aooContainer';
     aooContainer.style.display = 'flex';
     aooContainer.style.flexDirection = 'column';
-    ge('middleContainer').append(aooContainer);
+    //ge('middleContainer').append(aooContainer);
     
     //-//
 
@@ -35,6 +35,8 @@ function makeAooSongTextArea()
     };
     playAooButton.style.alignSelf = 'flex-start';
     aooContainer.append(playAooButton);
+
+    return aooContainer;
 }
 
 //----//

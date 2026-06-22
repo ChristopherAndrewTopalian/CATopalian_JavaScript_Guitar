@@ -4,7 +4,7 @@
 function playSongAooFromTextarea()
 {
     let jsonString = ge('aooTextarea').value; // get JSON string from textbox
-    
+
     let songArray;
 
     try

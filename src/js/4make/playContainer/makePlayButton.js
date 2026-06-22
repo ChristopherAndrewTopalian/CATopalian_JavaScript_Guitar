@@ -48,7 +48,9 @@ function makePlayButton()
 
         }, 1000);
     };
-    ge('playContainer').append(playLoopButton);
+    //ge('playContainer').append(playLoopButton);
+
+    return playLoopButton;
 }
 
 //----//

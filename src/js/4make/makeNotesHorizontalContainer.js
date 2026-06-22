@@ -13,7 +13,8 @@ function makeNotesHorizontalContainer()
     mainDiv.style.overflowX = 'scroll';
     mainDiv.style.display = 'flex';
     mainDiv.style.flexDirection = 'row';
-    ge('middleContainer').append(mainDiv);
+    //ge('middleContainer').append(mainDiv);
+    return mainDiv;
 }
 
 //----//

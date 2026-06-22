@@ -5,7 +5,8 @@ function makeRecordPlayStatus()
     let mode = ce('div');
     mode.id = 'mode';
     mode.textContent = 'Record Mode';
-    ge('playContainer').append(mode);
+    //ge('playContainer').append(mode);
+    return mode;
 }
 
 //----//

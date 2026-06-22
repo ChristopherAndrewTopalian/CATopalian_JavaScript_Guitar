@@ -5,7 +5,8 @@ function makePlayContainer()
     let playContainer = ce('div');
     playContainer.id = 'playContainer';
     playContainer.style.marginTop = '10px';
-    ge('middleContainer').append(playContainer);
+    //ge('middleContainer').append(playContainer);
+    return playContainer;
 }
 
 //----//

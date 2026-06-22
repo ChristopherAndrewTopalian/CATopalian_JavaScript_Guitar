@@ -1,22 +1,37 @@
-// makeNotesContainer.js
+// makeNotesContainerAoo.js
 
-// notes as letters c4_2
-
-function makeNotesContainer()
+function makeNotesContainerAoo()
 {
+    let mainDiv = ce('div');
+    mainDiv.style.display = 'flex';
+
     let notesContainer = ce('div');
-    notesContainer.id = 'notesContainer';
-    notesContainer.title = 'notesContainer';
+    notesContainer.id = 'notesContainerAoo';
+    notesContainer.title = 'notesContainerAoo';
+    notesContainer.contentEditable = 'true';
     notesContainer.style.width = 400 + 'px';
-    notesContainer.style.height = 40 + 'px';
+    notesContainer.style.height = 100 + 'px';
     notesContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     //notesContainer.style.wordWrap = 'break-word';
     //notesContainer.style.overflowWrap = 'break-word';
     notesContainer.style.overflowX = 'scroll';
     //notesContainer.style.whiteSpace = 'normal';
     // notesContainer.contentEditable = 'true';
+    //ge('middleContainer').append(notesContainer);
+    mainDiv.append(notesContainer);
 
-    return notesContainer;
+    //-//
+
+    let playAooBtn = ce('button');
+    playAooBtn.textContent = 'Play';
+    playAooBtn.onclick = function()
+    {
+        playSongAoo();
+    };
+    //ge('middleContainer').append(playAooBtn);
+    mainDiv.append(playAooBtn);
+
+    return mainDiv;
 }
 
 //----//

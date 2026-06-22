@@ -3,7 +3,7 @@
 function makeGuitar()
 {
     let mainDiv = ce('div');
-    ba(mainDiv);
+    //ba(mainDiv);
 
     //-//
 
@@ -312,6 +312,8 @@ function makeGuitar()
         };
         stringFirst.append(note);
     }
+
+    return mainDiv;
 }
 
 //----//
