@@ -6,7 +6,8 @@ let thirdString = [
         fileName: 'g3_note',
         type: 'natural',
         id: 'g3_3',
-        string: 3
+        string: 3,
+        pitchValue: 15
     },
 
     {
@@ -14,7 +15,8 @@ let thirdString = [
         fileName: 'gsharp3_note',
         type: 'sharp',
         id: 'gsharp3_3',
-        string: 3
+        string: 3,
+        pitchValue: 16
     },
 
     {
@@ -22,7 +24,8 @@ let thirdString = [
         fileName: 'a3_note',
         type: 'natural',
         id: 'a3_3',
-        string: 3
+        string: 3,
+        pitchValue: 17
     },
 
     {
@@ -30,7 +33,8 @@ let thirdString = [
         fileName: 'asharp3_note',
         type: 'sharp',
         id: 'asharp3_3',
-        string: 3
+        string: 3,
+        pitchValue: 18
     },
 
     {
@@ -38,7 +42,8 @@ let thirdString = [
         fileName: 'b3_note',
         type: 'natural',
         id: 'b3_3',
-        string: 3
+        string: 3,
+        pitchValue: 19
     },
 
     {
@@ -46,7 +51,8 @@ let thirdString = [
         fileName: 'c4_note',
         type: 'natural',
         id: 'c4_3',
-        string: 3
+        string: 3,
+        pitchValue: 20
     },
 
     {
@@ -54,7 +60,8 @@ let thirdString = [
         fileName: 'csharp4_note',
         type: 'sharp',
         id: 'csharp4_3',
-        string: 3
+        string: 3,
+        pitchValue: 21
     },
 
     {
@@ -62,7 +69,8 @@ let thirdString = [
         fileName: 'd4_note',
         type: 'natural',
         id: 'd4_3',
-        string: 3
+        string: 3,
+        pitchValue: 22
     },
 
     {
@@ -70,7 +78,8 @@ let thirdString = [
         fileName: 'dsharp4_note',
         type: 'sharp',
         id: 'dsharp4_3',
-        string: 3
+        string: 3,
+        pitchValue: 23
     },
 
     {
@@ -78,7 +87,8 @@ let thirdString = [
         fileName: 'e4_note',
         type: 'natural',
         id: 'e4_3',
-        string: 3
+        string: 3,
+        pitchValue: 24
     },
 
     {
@@ -86,7 +96,8 @@ let thirdString = [
         fileName: 'f4_note',
         type: 'natural',
         id: 'f4_3',
-        string: 3
+        string: 3,
+        pitchValue: 25
     },
 
     {
@@ -94,7 +105,8 @@ let thirdString = [
         fileName: 'fsharp4_note',
         type: 'sharp',
         id: 'fsharp4_3',
-        string: 3
+        string: 3,
+        pitchValue: 26
     },
 
     {
@@ -102,7 +114,8 @@ let thirdString = [
         fileName: 'g4_note',
         type: 'natural',
         id: 'g4_3',
-        string: 3
+        string: 3,
+        pitchValue: 27
     },
 
     {
@@ -110,7 +123,8 @@ let thirdString = [
         fileName: 'gsharp4_note',
         type: 'sharp',
         id: 'gsharp4_3',
-        string: 3
+        string: 3,
+        pitchValue: 28
     },
 
     {
@@ -118,7 +132,8 @@ let thirdString = [
         fileName: 'a4_note',
         type: 'natural',
         id: 'a4_3',
-        string: 3
+        string: 3,
+        pitchValue: 29
     },
 
     {
@@ -126,7 +141,8 @@ let thirdString = [
         fileName: 'asharp4_note',
         type: 'sharp',
         id: 'asharp4_3',
-        string: 3
+        string: 3,
+        pitchValue: 30
     },
 
     {
@@ -134,7 +150,8 @@ let thirdString = [
         fileName: 'b4_note',
         type: 'natural',
         id: 'b4_3',
-        string: 3
+        string: 3,
+        pitchValue: 31
     },
 
     {
@@ -142,7 +159,8 @@ let thirdString = [
         fileName: 'c5_note',
         type: 'natural',
         id: 'c5_3',
-        string: 3
+        string: 3,
+        pitchValue: 32
     },
 
     {
@@ -150,7 +168,8 @@ let thirdString = [
         fileName: 'csharp5_note',
         type: 'sharp',
         id: 'csharp5_3',
-        string: 3
+        string: 3,
+        pitchValue: 33
     },
 
     {
@@ -158,7 +177,8 @@ let thirdString = [
         fileName: 'd5_note',
         type: 'natural',
         id: 'd5_3',
-        string: 3
+        string: 3,
+        pitchValue: 34
     },
 
     {
@@ -166,7 +186,8 @@ let thirdString = [
         fileName: 'dsharp5_note',
         type: 'sharp',
         id: 'dsharp5_3',
-        string: 3
+        string: 3,
+        pitchValue: 35
     }
 ];
 

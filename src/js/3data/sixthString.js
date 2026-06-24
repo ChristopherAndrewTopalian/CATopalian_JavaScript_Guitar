@@ -6,7 +6,8 @@ let sixthString = [
         fileName: 'e2_note',
         type: 'natural',
         id: 'e2_6',
-        string: 6
+        string: 6,
+        pitchValue: 0 // The absolute lowest note
     },
 
     {
@@ -14,7 +15,8 @@ let sixthString = [
         fileName: 'f2_note',
         type: 'natural',
         id: 'f2_6',
-        string: 6
+        string: 6,
+        pitchValue: 1 // 1 half step up
     },
 
     {
@@ -22,7 +24,8 @@ let sixthString = [
         fileName: 'fsharp2_note',
         type: 'sharp',
         id: 'fsharp_6',
-        string: 6
+        string: 6,
+        pitchValue: 2
     },
 
     {
@@ -30,7 +33,8 @@ let sixthString = [
         fileName: 'g2_note',
         type: 'natural',
         id: 'g2_6',
-        string: 6
+        string: 6,
+        pitchValue: 3
     },
 
     {
@@ -38,7 +42,8 @@ let sixthString = [
         fileName: 'gsharp2_note',
         type: 'sharp',
         id: 'gsharp2_6',
-        string: 6
+        string: 6,
+        pitchValue: 4
     },
 
     {
@@ -46,7 +51,8 @@ let sixthString = [
         fileName: 'a2_note',
         type: 'natural',
         id: 'a2_6',
-        string: 6
+        string: 6,
+        pitchValue: 5
     },
 
     {
@@ -54,7 +60,8 @@ let sixthString = [
         fileName: 'asharp2_note',
         type: 'sharp',
         id: 'asharp2_6',
-        string: 6
+        string: 6,
+        pitchValue: 6
     },
 
     {
@@ -62,7 +69,8 @@ let sixthString = [
         fileName: 'b2_note',
         type: 'natural',
         id: 'b2_6',
-        string: 6
+        string: 6,
+        pitchValue: 7
     },
 
     {
@@ -70,7 +78,8 @@ let sixthString = [
         fileName: 'c3_note',
         type: 'natural',
         id: 'c3_6',
-        string: 6
+        string: 6,
+        pitchValue: 8
     },
 
     {
@@ -78,7 +87,8 @@ let sixthString = [
         fileName: 'csharp3_note',
         type: 'sharp',
         id: 'csharp3_6',
-        string: 6
+        string: 6,
+        pitchValue: 9
     },
 
     {
@@ -86,7 +96,8 @@ let sixthString = [
         fileName: 'd3_note',
         type: 'natural',
         id: 'd3_6',
-        string: 6
+        string: 6,
+        pitchValue: 10
     },
 
     {
@@ -94,7 +105,8 @@ let sixthString = [
         fileName: 'dsharp3_note',
         type: 'sharp',
         id: 'dsharp3_6',
-        string: 6
+        string: 6,
+        pitchValue: 11
     },
 
     {
@@ -102,7 +114,8 @@ let sixthString = [
         fileName: 'e3_note',
         type: 'natural',
         id: 'e3_6',
-        string: 6
+        string: 6,
+        pitchValue: 12
     },
 
     {
@@ -110,7 +123,8 @@ let sixthString = [
         fileName: 'f3_note',
         type: 'natural',
         id: 'f3_6',
-        string: 6
+        string: 6,
+        pitchValue: 13
     },
 
     {
@@ -118,7 +132,8 @@ let sixthString = [
         fileName: 'fsharp3_note',
         type: 'sharp',
         id: 'fsharp3_6',
-        string: 6
+        string: 6,
+        pitchValue: 14
     },
 
     {
@@ -126,7 +141,8 @@ let sixthString = [
         fileName: 'g3_note',
         type: 'natural',
         id: 'g3_6',
-        string: 6
+        string: 6,
+        pitchValue: 15
     },
 
     {
@@ -134,7 +150,8 @@ let sixthString = [
         fileName: 'gsharp3_note',
         type: 'sharp',
         id: 'gsharp3_6',
-        string: 6
+        string: 6,
+        pitchValue: 16
     },
 
     {
@@ -142,7 +159,8 @@ let sixthString = [
         fileName: 'a3_note',
         type: 'natural',
         id: 'a3_6',
-        string: 6
+        string: 6,
+        pitchValue: 17
     },
 
     {
@@ -150,7 +168,8 @@ let sixthString = [
         fileName: 'asharp3_note',
         type: 'sharp',
         id: 'asharp3_6',
-        string: 6
+        string: 6,
+        pitchValue: 18
     },
 
     {
@@ -158,7 +177,8 @@ let sixthString = [
         fileName: 'b3_note',
         type: 'natural',
         id: 'b3_6',
-        string: 6
+        string: 6,
+        pitchValue: 19
     },
 
     {
@@ -166,8 +186,9 @@ let sixthString = [
         fileName: 'c4_note',
         type: 'natural',
         id: 'c4_6',
-        string: 6
-    },
+        string: 6,
+        pitchValue: 20
+    }
 ];
 
 //----//

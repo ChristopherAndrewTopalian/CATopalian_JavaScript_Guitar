@@ -11,6 +11,8 @@ let notesPlayed = [];
 
 let notesPlayedAoo = [];
 
+let timelineCurrentTime = 0;
+
 let keySensor;
 
 //----//

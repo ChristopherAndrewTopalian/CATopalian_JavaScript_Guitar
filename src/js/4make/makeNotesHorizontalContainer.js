@@ -7,7 +7,8 @@ function makeNotesHorizontalContainer()
     let mainDiv = ce('div');
     mainDiv.id = 'notesHorizontalContainer';
     mainDiv.title = 'notesHorizontalContainer';
-    mainDiv.style.height = 70 + 'px';
+    mainDiv.style.position = 'relative';
+    mainDiv.style.height = 500 + 'px';
     mainDiv.style.width = 400 + 'px';
     mainDiv.style.border = 'solid 1px rgb(255, 255, 255)';
     mainDiv.style.overflowX = 'scroll';

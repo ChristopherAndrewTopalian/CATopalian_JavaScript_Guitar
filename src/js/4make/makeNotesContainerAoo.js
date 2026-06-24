@@ -10,10 +10,11 @@ function makeNotesContainerAoo()
     notesContainer.title = 'notesContainerAoo';
     notesContainer.contentEditable = 'true';
     notesContainer.style.width = 400 + 'px';
-    notesContainer.style.height = 100 + 'px';
+    notesContainer.style.height = 30 + 'px';
     notesContainer.style.border = 'solid 1px rgb(255, 255, 255)';
     //notesContainer.style.wordWrap = 'break-word';
     //notesContainer.style.overflowWrap = 'break-word';
+    notesContainer.style.whiteSpace = 'nowrap';
     notesContainer.style.overflowX = 'scroll';
     //notesContainer.style.whiteSpace = 'normal';
     // notesContainer.contentEditable = 'true';

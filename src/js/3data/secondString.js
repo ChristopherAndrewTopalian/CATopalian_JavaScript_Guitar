@@ -6,7 +6,8 @@ let secondString = [
         fileName: 'b3_note',
         type: 'natural',
         id: 'b3_2',
-        string: 2
+        string: 2,
+        pitchValue: 19
     },
 
     {
@@ -14,7 +15,8 @@ let secondString = [
         fileName: 'c4_note',
         type: 'natural',
         id: 'c4_2',
-        string: 2
+        string: 2,
+        pitchValue: 20
     },
 
     {
@@ -22,7 +24,8 @@ let secondString = [
         fileName: 'csharp4_note',
         type: 'sharp',
         id: 'csharp4_2',
-        string: 2
+        string: 2,
+        pitchValue: 21
     },
 
     {
@@ -30,7 +33,8 @@ let secondString = [
         fileName: 'd4_note',
         type: 'natural',
         id: 'd4_2',
-        string: 2
+        string: 2,
+        pitchValue: 22
     },
 
     {
@@ -38,7 +42,8 @@ let secondString = [
         fileName: 'dsharp4_note',
         type: 'sharp',
         id: 'dsharp4_2',
-        string: 2
+        string: 2,
+        pitchValue: 23
     },
 
     {
@@ -46,7 +51,8 @@ let secondString = [
         fileName: 'e4_note',
         type: 'natural',
         id: 'e4_2',
-        string: 2
+        string: 2,
+        pitchValue: 24
     },
 
     {
@@ -54,7 +60,8 @@ let secondString = [
         fileName: 'f4_note',
         type: 'natural',
         id: 'f4_2',
-        string: 2
+        string: 2,
+        pitchValue: 25
     },
 
     {
@@ -62,7 +69,8 @@ let secondString = [
         fileName: 'fsharp4_note',
         type: 'sharp',
         id: 'fsharp4_2',
-        string: 2
+        string: 2,
+        pitchValue: 26
     },
 
     {
@@ -70,7 +78,8 @@ let secondString = [
         fileName: 'g4_note',
         type: 'natural',
         id: 'g4_2',
-        string: 2
+        string: 2,
+        pitchValue: 27
     },
 
     {
@@ -78,7 +87,8 @@ let secondString = [
         fileName: 'gsharp4_note',
         type: 'sharp',
         id: 'gsharp4_2',
-        string: 2
+        string: 2,
+        pitchValue: 28
     },
 
     {
@@ -86,7 +96,8 @@ let secondString = [
         fileName: 'a4_note',
         type: 'natural',
         id: 'a4_2',
-        string: 2
+        string: 2,
+        pitchValue: 29
     },
 
     {
@@ -94,7 +105,8 @@ let secondString = [
         fileName: 'asharp4_note',
         type: 'sharp',
         id: 'asharp4_2',
-        string: 2
+        string: 2,
+        pitchValue: 30
     },
 
     {
@@ -102,7 +114,8 @@ let secondString = [
         fileName: 'b4_note',
         type: 'natural',
         id: 'b4_2',
-        string: 2
+        string: 2,
+        pitchValue: 31
     },
 
     {
@@ -110,7 +123,8 @@ let secondString = [
         fileName: 'c5_note',
         type: 'natural',
         id: 'c5_2',
-        string: 2
+        string: 2,
+        pitchValue: 32
     },
 
     {
@@ -118,7 +132,8 @@ let secondString = [
         fileName: 'csharp5_note',
         type: 'sharp',
         id: 'csharp5_2',
-        string: 2
+        string: 2,
+        pitchValue: 33
     },
 
     {
@@ -126,7 +141,8 @@ let secondString = [
         fileName: 'd5_note',
         type: 'natural',
         id: 'd5_2',
-        string: 2
+        string: 2,
+        pitchValue: 34
     },
 
     {
@@ -134,7 +150,8 @@ let secondString = [
         fileName: 'dsharp5_note',
         type: 'sharp',
         id: 'dsharp5_2',
-        string: 2
+        string: 2,
+        pitchValue: 35
     },
 
     {
@@ -142,7 +159,8 @@ let secondString = [
         fileName: 'e5_note',
         type: 'natural',
         id: 'e5_2',
-        string: 2
+        string: 2,
+        pitchValue: 36
     },
 
     {
@@ -150,7 +168,8 @@ let secondString = [
         fileName: 'f5_note',
         type: 'natural',
         id: 'f5_2',
-        string: 2
+        string: 2,
+        pitchValue: 37
     },
 
     {
@@ -158,7 +177,8 @@ let secondString = [
         fileName: 'fsharp5_note',
         type: 'sharp',
         id: 'fsharp5_2',
-        string: 2
+        string: 2,
+        pitchValue: 38
     },
 
     {
@@ -166,7 +186,8 @@ let secondString = [
         fileName: 'g5_note',
         type: 'natural',
         id: 'g5_2',
-        string: 2
+        string: 2,
+        pitchValue: 39
     }
 ];
 

@@ -56,7 +56,8 @@ function makeGuitar()
         note.id = sixthString[i].id;
         note.className = 'noteStyle';
         note.textContent = sixthString[i].noteName;
-        note.onclick = function()
+        
+        /*note.onclick = function()
         {
             cl(sixthString[i].noteName);
 
@@ -89,6 +90,37 @@ function makeGuitar()
                 // playMode is active when
                 // isRecordMode is false
             }
+            */
+
+            note.onclick = function()
+            {
+                cl(sixthString[i].noteName);
+
+                audioPlay(sixthString[i].fileName, 1.0);
+
+                if (isRecordMode == true)
+                {
+                    // Update the pure data arrays
+                    notesPlayed.push(sixthString[i].id);
+                
+                    notesPlayedAoo.push({
+                    note: sixthString[i].id,
+                    duration: 2,
+                    pitchValue: sixthString[i].pitchValue // Passing the crucial Y-axis data
+                });
+
+                // Render the new timeline node using the data we just played
+                renderTimelineNode(sixthString[i]);
+
+                // Move the global clock forward for the next note 
+                // (40px spacing ensures the nodes don't stack on top of each other)
+                timelineCurrentTime += 40; 
+
+                // Update the diagnostic text containers (optional now, but good for debugging)
+                ge('notesContainer').innerHTML = notesPlayed;
+
+                ge('notesContainerAoo').innerHTML = JSON.stringify(notesPlayedAoo);
+            }
 
             if (isChordMode == true)
             {
@@ -114,6 +146,8 @@ function makeGuitar()
         note.id = fifthString[i].id;
         note.className = 'noteStyle';
         note.textContent = fifthString[i].noteName;
+        
+        /*
         note.onclick = function()
         {
             cl(fifthString[i].noteName);
@@ -139,6 +173,44 @@ function makeGuitar()
             }
         };
         stringFive.append(note);
+        */
+
+        note.onclick = function()
+        {
+            cl(fifthString[i].noteName);
+
+            audioPlay(fifthString[i].fileName, 1.0);
+
+            if (isRecordMode == true)
+            {
+                // Update the pure data arrays
+                notesPlayed.push(fifthString[i].id);
+    
+                notesPlayedAoo.push({
+                note: fifthString[i].id,
+                duration: 2,
+                pitchValue: fifthString[i].pitchValue // Passing the crucial Y-axis data
+                });
+
+                // Render the new timeline node using the data we just played
+                renderTimelineNode(fifthString[i]);
+
+                // Move the global clock forward for the next note 
+                // (40px spacing ensures the nodes don't stack on top of each other)
+                timelineCurrentTime += 40; 
+
+                // Update the diagnostic text containers (optional now, but good for debugging)
+                ge('notesContainer').innerHTML = notesPlayed;
+
+                ge('notesContainerAoo').innerHTML = JSON.stringify(notesPlayedAoo);
+            }
+
+            if (isChordMode == true)
+            {
+                // 
+            }
+        };
+        stringFive.append(note);
     }
 
     //-//
@@ -157,6 +229,8 @@ function makeGuitar()
         note.id = fourthString[i].id;
         note.className = 'noteStyle';
         note.textContent = fourthString[i].noteName;
+        
+        /*
         note.onclick = function()
         {
             cl(fourthString[i].noteName);
@@ -182,6 +256,44 @@ function makeGuitar()
             }
         };
         stringFourth.append(note);
+        */
+
+        note.onclick = function()
+        {
+            cl(fourthString[i].noteName);
+
+            audioPlay(fourthString[i].fileName, 1.0);
+
+            if (isRecordMode == true)
+            {
+                // Update the pure data arrays
+                notesPlayed.push(fourthString[i].id);
+    
+                notesPlayedAoo.push({
+                note: fourthString[i].id,
+                duration: 2,
+                pitchValue: fourthString[i].pitchValue // Passing the crucial Y-axis data
+                });
+
+                // Render the new timeline node using the data we just played
+                renderTimelineNode(fourthString[i]);
+
+                // Move the global clock forward for the next note 
+                // (40px spacing ensures the nodes don't stack on top of each other)
+                timelineCurrentTime += 40; 
+
+                // Update the diagnostic text containers (optional now, but good for debugging)
+                ge('notesContainer').innerHTML = notesPlayed;
+
+                ge('notesContainerAoo').innerHTML = JSON.stringify(notesPlayedAoo);
+            }
+
+            if (isChordMode == true)
+            {
+                // 
+            }
+        };
+        stringFourth.append(note);
     }
 
     //-//
@@ -200,6 +312,8 @@ function makeGuitar()
         note.id = thirdString[i].id;
         note.className = 'noteStyle';
         note.textContent = thirdString[i].noteName;
+        
+        /*
         note.onclick = function()
         {
             cl(thirdString[i].noteName);
@@ -225,6 +339,44 @@ function makeGuitar()
             }
         };
         stringThird.append(note);
+        */
+
+        note.onclick = function()
+        {
+            cl(thirdString[i].noteName);
+
+            audioPlay(thirdString[i].fileName, 1.0);
+
+            if (isRecordMode == true)
+            {
+                // Update the pure data arrays
+                notesPlayed.push(thirdString[i].id);
+    
+                notesPlayedAoo.push({
+                note: thirdString[i].id,
+                duration: 2,
+                pitchValue: thirdString[i].pitchValue // Passing the crucial Y-axis data
+                });
+
+                // Render the new timeline node using the data we just played
+                renderTimelineNode(thirdString[i]);
+
+                // Move the global clock forward for the next note 
+                // (40px spacing ensures the nodes don't stack on top of each other)
+                timelineCurrentTime += 40; 
+
+                // Update the diagnostic text containers (optional now, but good for debugging)
+                ge('notesContainer').innerHTML = notesPlayed;
+
+                ge('notesContainerAoo').innerHTML = JSON.stringify(notesPlayedAoo);
+            }
+
+            if (isChordMode == true)
+            {
+                // 
+            }
+        };
+        stringThird.append(note);
     }
 
     //-//
@@ -243,6 +395,8 @@ function makeGuitar()
         note.id = secondString[i].id;
         note.className = 'noteStyle';
         note.textContent = secondString[i].noteName;
+        
+        /*
         note.onclick = function()
         {
             cl(secondString[i].noteName);
@@ -268,6 +422,44 @@ function makeGuitar()
             }
         };
         stringSecond.append(note);
+        */
+
+        note.onclick = function()
+        {
+            cl(secondString[i].noteName);
+
+            audioPlay(secondString[i].fileName, 1.0);
+
+            if (isRecordMode == true)
+            {
+                // Update the pure data arrays
+                notesPlayed.push(secondString[i].id);
+    
+                notesPlayedAoo.push({
+                note: secondString[i].id,
+                duration: 2,
+                pitchValue: secondString[i].pitchValue // Passing the crucial Y-axis data
+                });
+
+                // Render the new timeline node using the data we just played
+                renderTimelineNode(secondString[i]);
+
+                // Move the global clock forward for the next note 
+                // (40px spacing ensures the nodes don't stack on top of each other)
+                timelineCurrentTime += 40; 
+
+                // Update the diagnostic text containers (optional now, but good for debugging)
+                ge('notesContainer').innerHTML = notesPlayed;
+
+                ge('notesContainerAoo').innerHTML = JSON.stringify(notesPlayedAoo);
+            }
+
+            if (isChordMode == true)
+            {
+                // 
+            }
+        };
+        stringSecond.append(note);
     }
 
     //-//
@@ -286,6 +478,8 @@ function makeGuitar()
         note.id = firstString[i].id;
         note.className = 'noteStyle';
         note.textContent = firstString[i].noteName;
+        
+        /*
         note.onclick = function()
         {
             cl(firstString[i].noteName);
@@ -308,6 +502,44 @@ function makeGuitar()
                 let clonedNote = this.cloneNode(true);
 
                 ge('notesHorizontalContainer').append(clonedNote);
+            }
+        };
+        stringFirst.append(note);
+        */
+
+        note.onclick = function()
+        {
+            cl(firstString[i].noteName);
+
+            audioPlay(firstString[i].fileName, 1.0);
+
+            if (isRecordMode == true)
+            {
+                // Update the pure data arrays
+                notesPlayed.push(firstString[i].id);
+    
+                notesPlayedAoo.push({
+                note: firstString[i].id,
+                duration: 2,
+                pitchValue: firstString[i].pitchValue // Passing the crucial Y-axis data
+                });
+
+                // Render the new timeline node using the data we just played
+                renderTimelineNode(firstString[i]);
+
+                // Move the global clock forward for the next note 
+                // (40px spacing ensures the nodes don't stack on top of each other)
+                timelineCurrentTime += 40; 
+
+                // Update the diagnostic text containers (optional now, but good for debugging)
+                ge('notesContainer').innerHTML = notesPlayed;
+
+                ge('notesContainerAoo').innerHTML = JSON.stringify(notesPlayedAoo);
+            }
+
+            if (isChordMode == true)
+            {
+                // 
             }
         };
         stringFirst.append(note);

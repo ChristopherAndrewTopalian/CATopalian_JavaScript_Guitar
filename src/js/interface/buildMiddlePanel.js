@@ -5,14 +5,15 @@ function buildMiddlePanel()
     let mainDiv = ce('div');
     mainDiv.style.border = 'solid 1px white';
 
-    mainDiv.append(makeNotesContainer());
-    mainDiv.append(makeNotesContainerAoo());
+    mainDiv.append(makeNotesHorizontalContainer());
 
     mainDiv.append(makeRecordModeButton());
     mainDiv.append(makePlayModeButton());
-    mainDiv.append(makeNotesHorizontalContainer());
+
     mainDiv.append(makeAooSongTextArea());
 
+    mainDiv.append(makeNotesContainer());
+    mainDiv.append(makeNotesContainerAoo());
     //-//
 
     let playContainer = ce('div');

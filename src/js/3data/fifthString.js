@@ -6,7 +6,8 @@ let fifthString = [
         fileName: 'a2_note',
         type: 'natural',
         id: 'a2_5',
-        string: 5
+        string: 5,
+        pitchValue: 5
     },
 
     {
@@ -14,7 +15,8 @@ let fifthString = [
         fileName: 'asharp2_note',
         type: 'sharp',
         id: 'asharp_5',
-        string: 5
+        string: 5,
+        pitchValue: 6
     },
 
     {
@@ -22,7 +24,8 @@ let fifthString = [
         fileName: 'b2_note',
         type: 'natural',
         id: 'b2_5',
-        string: 5
+        string: 5,
+        pitchValue: 7
     },
 
     {
@@ -30,7 +33,8 @@ let fifthString = [
         fileName: 'c3_note',
         type: 'natural',
         id: 'c3_5',
-        string: 5
+        string: 5,
+        pitchValue: 8
     },
 
     {
@@ -38,7 +42,8 @@ let fifthString = [
         fileName: 'csharp3_note',
         type: 'sharp',
         id: 'csharp3_5',
-        string: 5
+        string: 5,
+        pitchValue: 9
     },
 
     {
@@ -46,7 +51,8 @@ let fifthString = [
         fileName: 'd3_note',
         type: 'natural',
         id: 'd3_5',
-        string: 5
+        string: 5,
+        pitchValue: 10
     },
 
     {
@@ -54,7 +60,8 @@ let fifthString = [
         fileName: 'dsharp3_note',
         type: 'sharp',
         id: 'dsharp3_5',
-        string: 5
+        string: 5,
+        pitchValue: 11
     },
 
     {
@@ -62,7 +69,8 @@ let fifthString = [
         fileName: 'e3_note',
         type: 'natural',
         id: 'e3_5',
-        string: 5
+        string: 5,
+        pitchValue: 12
     },
 
     {
@@ -70,7 +78,8 @@ let fifthString = [
         fileName: 'f3_note',
         type: 'natural',
         id: 'f3_5',
-        string: 5
+        string: 5,
+        pitchValue: 13
     },
 
     {
@@ -78,7 +87,8 @@ let fifthString = [
         fileName: 'fsharp3_note',
         type: 'sharp',
         id: 'fsharp3_5',
-        string: 5
+        string: 5,
+        pitchValue: 14
     },
 
     {
@@ -86,7 +96,8 @@ let fifthString = [
         fileName: 'g3_note',
         type: 'natural',
         id: 'g3_5',
-        string: 5
+        string: 5,
+        pitchValue: 15
     },
 
     {
@@ -94,7 +105,8 @@ let fifthString = [
         fileName: 'gsharp3_note',
         type: 'sharp',
         id: 'gsharp3_5',
-        string: 5
+        string: 5,
+        pitchValue: 16
     },
 
     {
@@ -102,7 +114,8 @@ let fifthString = [
         fileName: 'a3_note',
         type: 'natural',
         id: 'a3_5',
-        string: 5
+        string: 5,
+        pitchValue: 17
     },
 
     {
@@ -110,7 +123,8 @@ let fifthString = [
         fileName: 'asharp3_note',
         type: 'sharp',
         id: 'asharp3_5',
-        string: 5
+        string: 5,
+        pitchValue: 18
     },
 
     {
@@ -118,7 +132,8 @@ let fifthString = [
         fileName: 'b3_note',
         type: 'natural',
         id: 'b3_5',
-        string: 5
+        string: 5,
+        pitchValue: 19
     },
 
     {
@@ -126,7 +141,8 @@ let fifthString = [
         fileName: 'c4_note',
         type: 'natural',
         id: 'c4_5',
-        string: 5
+        string: 5,
+        pitchValue: 20
     },
 
     {
@@ -134,7 +150,8 @@ let fifthString = [
         fileName: 'csharp4_note',
         type: 'sharp',
         id: 'csharp4_5',
-        string: 5
+        string: 5,
+        pitchValue: 21
     },
 
     {
@@ -142,7 +159,8 @@ let fifthString = [
         fileName: 'd4_note',
         type: 'natural',
         id: 'd4_5',
-        string: 5
+        string: 5,
+        pitchValue: 22
     },
 
     {
@@ -150,7 +168,8 @@ let fifthString = [
         fileName: 'dsharp4_note',
         type: 'sharp',
         id: 'dsharp4_5',
-        string: 5
+        string: 5,
+        pitchValue: 23
     },
 
     {
@@ -158,7 +177,8 @@ let fifthString = [
         fileName: 'e4_note',
         type: 'natural',
         id: 'e4_5',
-        string: 5
+        string: 5,
+        pitchValue: 24
     },
 
     {
@@ -166,7 +186,8 @@ let fifthString = [
         fileName: 'f4_note',
         type: 'natural',
         id: 'f4_5',
-        string: 5
+        string: 5,
+        pitchValue: 25
     },
 ];
 
